@@ -57,7 +57,8 @@ If you want to turn off the LED when you push the switch button connected to GPI
 
 ## Reference
 
-https://github.com/rt-net/RaspberryPiMouse
+* https://github.com/rt-net/RaspberryPiMouse
+* http://derekmolloy.ie/kernel-gpio-programming-buttons-and-leds/
 
 ## License
 
