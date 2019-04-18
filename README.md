@@ -14,7 +14,7 @@ When you `insmod` this driver, `myled0` and `myswitch0` will appear in `/dev`.
 * led
 * resistor
   * 330[ohm]
-  * 10k[ohm]
+  * 1k[ohm]
 * switch
 
 ## Installation
