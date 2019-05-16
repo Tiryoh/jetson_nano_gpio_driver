@@ -1,4 +1,4 @@
-# jetson_gpio_driver
+# jetson_nano_gpio_driver
 
 Simple Device Driver for Jetson Nano
 
@@ -14,7 +14,7 @@ When you `insmod` this driver, `myled0` and `myswitch0` will appear in `/dev`.
 * led
 * resistor
   * 330[ohm]
-  * 1k[ohm]
+  * 10k[ohm]
 * switch
 
 ## Installation
@@ -30,13 +30,13 @@ Connect led, resistors, switch to GPIO of Jetson Nano as shown in schematic.
 First, download this repository.
 
 ```
-git clone https://github.com/Tiryoh/jetson_gpio_driver.git
+git clone https://github.com/Tiryoh/jetson_nano_gpio_driver.git
 ```
 
-Next, move into `jetson_gpio_driver` directory and run make command.
+Next, move into `jetson_nano_gpio_driver` directory and run make command.
 
 ```
-cd jetson_gpio_driver
+cd jetson_nano_gpio_driver
 make && make install
 ```
 
@@ -49,7 +49,7 @@ The LED connected to GPIO22 will blink.
 ./scripts/test_gpio22.sh
 ```
 
-If you want to turn off the LED when you push the switch button connected to GPIO21, run this command.
+If you want to turn on the LED when you push the switch button connected to GPIO21, run this command.
 
 ```
 ./scripts/sw_to_led.sh
