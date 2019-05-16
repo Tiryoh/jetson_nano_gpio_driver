@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eu
 
-[ ! -e /dev/myled0 -a ! -e /dev/myswitch0 ] && echo "install myled driver!" && exit 1 || echo "push switch to turn off led"
+[ ! -e /dev/myled0 -a ! -e /dev/myswitch0 ] && { echo "install myled driver!"; exit 1; } || echo "push switch to turn on led"
 
 while true; do 
 	cat /dev/myswitch0 > /dev/myled0
