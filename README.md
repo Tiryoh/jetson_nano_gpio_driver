@@ -49,11 +49,15 @@ The LED connected to GPIO22 will blink.
 ./scripts/test_gpio22.sh
 ```
 
+[![Image from Gyazo](https://i.gyazo.com/df7c60f94cfd262940c0063433a4ad8c.gif)](https://gyazo.com/df7c60f94cfd262940c0063433a4ad8c)
+
 If you want to turn on the LED when you push the switch button connected to GPIO21, run this command.
 
 ```
 ./scripts/sw_to_led.sh
 ```
+
+[![Image from Gyazo](https://i.gyazo.com/dc2103e49a1ebe612d4a0dd97911e41e.gif)](https://gyazo.com/dc2103e49a1ebe612d4a0dd97911e41e)
 
 ## Reference
 
